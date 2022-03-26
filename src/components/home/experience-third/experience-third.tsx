@@ -114,10 +114,10 @@ const ExperienceThird: React.FC = () => {
         company based in the USA. <br /> My Responsibilities
       </p>
       <ul className={`${style.contentBox__listBox}`}>
-        <li>Writing web and mobile application with Angular and Ionic</li>
+        <li>Writing web and mobile applications with Angular and Ionic</li>
         <li>
-          Communicate with different memebers of the team including backend
-          deveopers, designers and project manager
+          Communicate with different members of the team, including backend
+          developers, designers, and project manager
         </li>
         <li>Write maintainable and scalable code</li>
         <li>Follow Scrum Framework and Agile methodologies' best practices</li>

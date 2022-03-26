@@ -191,15 +191,15 @@ const ExperienceFourth: React.FC = () => {
         </div>
       </div>
       <p className={`${style.contentBox__description}`}>
-        My next job was and Single.Earth and it was such an amazing experience
-        working in a financial industry where security, hard work, passion and
-        being a team player where amongst the most important factors.
+        My next job was Single.Earth was such a terrific experience working in a
+        financial industry where security, hard work, passion, and being a team
+        player were among the most critical factors.
       </p>
       <ul className={`${style.contentBox__listBox}`}>
         <li>Building websites with Gatsby and Next.js</li>
-        <li>Using both GraphQl and REST Api depending on the project</li>
+        <li>Using both GraphQl and REST API depending on the project</li>
         <li>
-          Working with map libraries such as Leaflet, Mapbox and Tiles, and
+          Working with map libraries such as Leaflet, Mapbox, and Tiles, and
           Geospatial analysis libraries like TurfJs
         </li>
         <li>Write maintainable and scalable code as always</li>

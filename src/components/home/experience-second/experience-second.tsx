@@ -45,7 +45,7 @@ const ExperienceSecond: React.FC = () => {
       </h5>
       <p>
         <i className={`${style.contentBox__activity} text-uppercase`}>
-          (focus on software project managemnet)
+          (focus on software project MANAGEMENT)
         </i>
       </p>
       <p className={`${style.contentBox__description}`}>
@@ -58,7 +58,7 @@ const ExperienceSecond: React.FC = () => {
         <li>Agile Methodologies, specifically Scrum</li>
         <li>
           Took Master of Computer Engineering courses, including JavaScript and
-          web development and pass the courses with the grade 5 from 5.
+          web development, and passed the courses with grades five from five.
         </li>
         <li>Negotiation</li>
       </ul>
@@ -67,8 +67,8 @@ const ExperienceSecond: React.FC = () => {
       >
         <Graduation />
         <p className={`${style.contentBox__description} mb-0 ms-3`}>
-          Finally I wrote my thesis with the topic of "Usefulness of the Scrum,
-          A Study Among Startups"
+          Finally, I wrote my thesis with the topic of "Usefulness of the Scrum,
+          A Study Among Startups."
         </p>
       </div>
     </div>

@@ -16,8 +16,8 @@ const ExperienceFive: React.FC = () => {
             </i>
           </p>
           <p className={`${style.contentBox__description}`}>
-            This was my goal as my next step to become a full-stack developer
-            and I was enjoying it a lot.
+            It was my goal as my next step to become a full-stack developer, and
+            I enjoyed it a lot.
           </p>
           <ul className={`${style.contentBox__listBox}`}>
             <li>
@@ -25,27 +25,27 @@ const ExperienceFive: React.FC = () => {
               for SSR)
             </li>
             <li>
-              Building backend part of the projects including Authentication,
-              Authorization, User profiles and many more parts of the backend by
-              using Golang, Nodejs.
+              I built the backend part of the projects, including
+              Authentication, Authorization, User profiles, and many more
+              aspects of the backend by using Golang, Nodejs.
             </li>
             <li>
               Writing maintainable and scalable code was crucial at this point
-              since the company was growing very fast and I really wanted to
-              prepare a good code base for the new developers
+              since the company was growing very fast, and I desired to prepare
+              a good code base for the new developers.
             </li>
             <li>
-              Being a team player and at this point it was more important than
+              Being a team player and at this point, it was more important than
               before since the dev team was growing fast.
             </li>
             <li>
               Onboarding new developers and building the culture of the dev team
-              witht the help of other managers
+              with the help of other managers
             </li>
             <li>
-              I needed to be role model for other developers, by working hard,
-              taking ownership of my work and being responsible as much as
-              possible to spread this work ethic among others.
+              I needed to be a role model for other developers by working hard,
+              taking ownership of my work, and being responsible as much as
+              possible to spread this work ethic, among others.
             </li>
           </ul>
         </div>
@@ -71,7 +71,7 @@ const ExperienceFive: React.FC = () => {
           </p>
           <ul className={`${style.contentBox__listBox}`}>
             <li>
-              Working with Angular on the front-end and Golang on the back-end.
+              Working with Angular on the Front-end and Golang on the back-end.
             </li>
             <li>
               Dockerizing the projects and building CI/CDs for every project
@@ -80,7 +80,7 @@ const ExperienceFive: React.FC = () => {
             <li>
               Helping team members both in technical and non-technical matters
             </li>
-            <li>Hiring Developers and doing interviews with canditates</li>
+            <li>Hiring Developers and doing interviews with candidates</li>
           </ul>
         </div>
         <div className="col-12 col-lg-5 order-1 order-lg-2">

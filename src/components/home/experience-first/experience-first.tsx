@@ -26,15 +26,16 @@ const ExperienceFirst: React.FC = () => {
       </h5>
       <p className={`${style.contentBox__description}`}>
         I enjoyed the theory part besides the practical part. I became the
-        professor assistant and started teaching students Data Structures which
-        was the most amazing thing that happened to me during my bachelor study
+        professor's assistant and started teaching students Data Structures
+        which was the most amazing thing that happened to me during my bachelor
+        study.
         <br />
         Some of my favorite topics were:
       </p>
       <ul className={`${style.contentBox__listBox}`}>
         <li>
-          Databases, including relational(SQL) and unrelational(MongoDB)
-          databases both theoritical and practical part
+          Databases, including relational(SQL) and non-relational(MongoDB)
+          databases, both theoretical and practical part
         </li>
         <li>Engineering Mathematics</li>
         <li>Data Structures</li>
@@ -47,7 +48,8 @@ const ExperienceFirst: React.FC = () => {
       >
         <Graduation />
         <p className={`${style.contentBox__description} mb-0 ms-3`}>
-          After graduation I decided to persue a career as a web developer and went Estonia
+          After graduation, I decided to pursue a career as a web developer and
+          went to Estonia.
         </p>
       </div>
     </div>

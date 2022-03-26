@@ -9,7 +9,7 @@ const Hero: React.FC = () => {
     gsap.registerPlugin(TextPlugin);
     gsap.to(".contentBox__title", {
       duration: 2,
-      text: "hi my name is ali and I'm a software engineer",
+      text: "Hi My Name Is Ali, And I'm A Software Engineer",
     });
     gsap.to(".contentBox__subTtitle", {
       duration: 2,
