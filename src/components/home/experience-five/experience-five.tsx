@@ -1,8 +1,42 @@
 import style from "./experience-five.module.scss";
 import { ReactComponent as FullStack } from "../../../assets/home/full-stack.svg";
 import { ReactComponent as TeamLead } from "../../../assets/home/team-lead.svg";
+import { gsap } from "gsap";
+import { useEffect } from "react";
 
 const ExperienceFive: React.FC = () => {
+  useEffect(() => {
+    const fullStackSmokeTimeline = gsap.timeline({ repeat: -1, yoyo: true });
+    fullStackSmokeTimeline.to(".fullStackSmoke", {
+      y: -10,
+      opacity: 0.2,
+      duration: 1,
+    });
+    const fullStackEyeTimeline = gsap.timeline({ repeat: -1, yoyo: true });
+    fullStackEyeTimeline.to(".fullStackEye", {
+      scale: 0,
+      transformOrigin: "center",
+      duration: 0.5,
+      delay: 1,
+    });
+    const fullStackHandTimeline = gsap.timeline({ repeat: -1, yoyo: true });
+    fullStackHandTimeline.to(".fullStackHand", {
+      y: 8,
+      rotate: -6,
+      duration: 0.5,
+    });
+    const teamLeadStarTimeline = gsap.timeline({ repeat: -1, yoyo: true });
+    teamLeadStarTimeline.to(".teamLeadStar", {
+      scale: 1.05,
+      rotate: -5,
+      duration: 0.5,
+    });
+    return () => {
+      fullStackSmokeTimeline.kill();
+      fullStackEyeTimeline.kill();
+      teamLeadStarTimeline.kill();
+    };
+  }, []);
   return (
     <div className={`w-100 container pb-5 ${style.contentBox}`}>
       <div className="row">

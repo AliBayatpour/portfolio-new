@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import { gsap } from "gsap";
 import { TextPlugin } from "gsap/TextPlugin";
 import { ReactComponent as Map } from "../../../assets/home/map.svg";
+import profilePic from "../../../assets/home/my-pic.webp";
 
 const Hero: React.FC = () => {
   useEffect(() => {
@@ -46,7 +47,10 @@ const Hero: React.FC = () => {
             className={`${style.contentBox__subTtitle} contentBox__subTtitle`}
           ></h4>
         </div>
-        <div className={`${style.mapContainer} w-100 my-md-auto`}>
+        <div
+          className={`${style.mapContainer} w-100 my-md-auto position-relative`}
+        >
+          <div className={`${style.profilePic} position-absolute rounded-circle`}></div>
           <Map />
         </div>
       </div>
