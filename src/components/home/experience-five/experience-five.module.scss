@@ -1,0 +1,49 @@
+@use "/src/styles/breakpoints" as *;
+
+.secRowContentBox {
+  padding-top: 80px;
+  @include breakpoint("lg") {
+    padding-top: 30px;
+  }
+}
+.contentBox {
+  padding-top: 80px;
+  @include breakpoint("lg") {
+    padding-top: 130px;
+  }
+  &__timeline {
+    color: var(--color-bloodyRed-500);
+  }
+  &__activity {
+    color: var(--color-bloodyRed-500);
+  }
+  &__description {
+    color: var(--color-yellow-500);
+  }
+  &__placeBox {
+    svg {
+      width: 300px;
+    }
+  }
+  &__listBox {
+    color: var(--color-yellow-500);
+    list-style: none;
+
+    li {
+      &::before {
+        content: "\2022";
+        color: var(--color-bloodyRed-500);
+        font-family: "InterBlack";
+        font-weight: bold;
+        display: inline-block;
+        width: 16px;
+        margin-left: -16px;
+      }
+    }
+  }
+  &__finalThoughts {
+    svg {
+      height: 50px;
+    }
+  }
+}

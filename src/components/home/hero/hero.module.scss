@@ -1,0 +1,27 @@
+@use "/src/styles/breakpoints" as *;
+
+.mainContainer {
+  background-color: var(--color-balck);
+}
+.mapContainer {
+  max-width: 400px;
+}
+.contentBox {
+  &__title {
+    max-width: 800px;
+    color: var(--color-tealBlue-500);
+    mix-blend-mode: exclusion;
+    font-size: clamp(1.675rem, 5vw, 80px);
+    text-shadow: 0 0 7px var(--color-bloodyRed-500),
+      0 0 10px var(--color-bloodyRed-500), 0 0 21px var(--color-bloodyRed-500);
+    @include breakpoint("lg") {
+      min-height: 270px;
+    }
+  }
+  &__subTtitle {
+    color: var(--color-tealBlue-500);
+    text-shadow: 0 0 7px var(--color-bloodyRed-500),
+      0 0 10px var(--color-bloodyRed-500), 0 0 21px var(--color-bloodyRed-500);
+    mix-blend-mode: exclusion;
+  }
+}

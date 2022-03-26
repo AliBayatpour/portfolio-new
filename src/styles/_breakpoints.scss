@@ -1,0 +1,28 @@
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+
+@mixin breakpoint($point) {
+  @if $point == "xs" {
+    @media screen and (max-width: calc(#{$md} - 1px)) {
+      @content;
+    }
+  } @else if $point == "sm" {
+    @media screen and (min-width: $sm) {
+      @content;
+    }
+  } @else if $point == "md" {
+    @media screen and (min-width: $md) {
+      @content;
+    }
+  } @else if $point == "lg" {
+    @media screen and (min-width: $lg) {
+      @content;
+    }
+  } @else if $point == "xl" {
+    @media screen and (min-width: $xl) {
+      @content;
+    }
+  }
+}
