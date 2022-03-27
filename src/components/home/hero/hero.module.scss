@@ -7,6 +7,9 @@
   max-width: 400px;
 }
 .contentBox {
+  &__textBox {
+    min-height: 200px;
+  }
   &__title {
     max-width: 800px;
     color: var(--color-tealBlue-500);

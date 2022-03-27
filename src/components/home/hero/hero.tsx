@@ -3,7 +3,6 @@ import { useEffect } from "react";
 import { gsap } from "gsap";
 import { TextPlugin } from "gsap/TextPlugin";
 import { ReactComponent as Map } from "../../../assets/home/map.svg";
-import profilePic from "../../../assets/home/my-pic.webp";
 
 const Hero: React.FC = () => {
   useEffect(() => {
@@ -39,7 +38,7 @@ const Hero: React.FC = () => {
       <div
         className={`${style.contentBox} container-lg d-flex flex-wrap flex-md-nowrap h-100 py-5`}
       >
-        <div className={`my-md-auto mt-5 w-100`}>
+        <div className={`my-md-auto mt-5 w-100 ${style.contentBox__textBox}`}>
           <h1
             className={`${style.contentBox__title} text-capitalize contentBox__title mb-5`}
           ></h1>

@@ -35,6 +35,7 @@ const ExperienceFive: React.FC = () => {
       fullStackSmokeTimeline.kill();
       fullStackEyeTimeline.kill();
       teamLeadStarTimeline.kill();
+      fullStackHandTimeline.kill();
     };
   }, []);
   return (
