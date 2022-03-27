@@ -1,10 +1,12 @@
 import style from "./header.module.scss";
 import { ReactComponent as Logo } from "../../assets/home/logo.svg";
 import { ReactComponent as Navigation } from "../../assets/home/navigation.svg";
-import { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { gsap } from "gsap";
+import DropdownMenu from "../dropdown-menu/dropdown-menu";
 
 const Header: React.FC = () => {
+  const [showMenu, setMenu] = useState<boolean>(false);
   useEffect(() => {
     const logoLampTimeline = gsap.timeline({ repeat: -1, yoyo: true });
     logoLampTimeline.to(".logoBlinking", {
@@ -39,12 +41,20 @@ const Header: React.FC = () => {
     };
   }, []);
   return (
-    <div className={`${style.mainContainer} fixed-top w-100 px-lg-5`}>
-      <div className={`${style.logoBox} py-3 d-flex`}>
-        <Logo />
-        <Navigation className={`ms-auto`} />
-      </div>
-    </div>
+    <React.Fragment>
+      <header className={`${style.mainContainer} fixed-top w-100 px-lg-5`}>
+        <div className={`${style.logoBox} py-3 d-flex`}>
+          <Logo />
+          <div
+            className={`ms-auto ${style.dropdownButton} rounded-circle`}
+            onClick={() => setMenu((showMenu) => !showMenu)}
+          >
+            <Navigation />
+          </div>
+        </div>
+      </header>
+      {showMenu ? <DropdownMenu /> : null}
+    </React.Fragment>
   );
 };
 

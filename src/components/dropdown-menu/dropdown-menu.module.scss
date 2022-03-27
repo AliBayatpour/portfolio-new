@@ -1,0 +1,14 @@
+.mainContainer {
+  z-index: 2;
+  background-color: red;
+  width: 100vw;
+  top: 85px;
+  height: calc(100vh - 85px);
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content {
+  background-color: var(--color-balck);
+}

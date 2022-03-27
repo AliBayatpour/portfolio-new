@@ -1,8 +1,27 @@
 .mainContainer {
   background: var(--color-balck);
+  height: 85px;
 }
 .logoBox {
   svg {
     height: 60px;
+    width: 80px;
+  }
+}
+.dropdownButton {
+  cursor: pointer;
+  &:hover {
+    path:nth-child(6) {
+      fill: var(--color-yellow-500) !important;
+    }
+    path:nth-child(8) {
+      fill: var(--color-yellow-500) !important;
+    }
+    path:nth-child(14) {
+      fill: var(--color-bloodyRed-500) !important;
+    }
+    path:nth-child(27) {
+      fill: var(--color-tealBlue-500) !important;
+    }
   }
 }
