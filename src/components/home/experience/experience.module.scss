@@ -2,9 +2,6 @@
 
 .panelBox {
   &__panel {
-    @include breakpoint("xl") {
-      min-height: 100vh;
-    }
     &--dark {
       background-color: var(--color-balck);
     }

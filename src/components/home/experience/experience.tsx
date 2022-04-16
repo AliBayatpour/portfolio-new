@@ -9,27 +9,6 @@ import ExperienceFourth from "../experience-fourth/experience-fourth";
 import ExperienceFive from "../experience-five/experience-five";
 
 const Experience: React.FC = () => {
-  useEffect(() => {
-    gsap.registerPlugin(ScrollTrigger);
-
-    ScrollTrigger.matchMedia({
-      "(min-width: 1200px)": () => {
-        gsap.utils.toArray(".panel").forEach((panel: any, i) => {
-          ScrollTrigger.create({
-            trigger: panel,
-            start: "top top",
-            pin: true,
-            pinSpacing: false,
-          });
-        });
-      },
-    });
-
-    return () => {
-      // kill all ScrollTrigger[s]
-      ScrollTrigger.getAll().forEach((t) => t.kill());
-    };
-  }, []);
   return (
     <div className={`w-100 ${style.panelBox}`}>
       <section
