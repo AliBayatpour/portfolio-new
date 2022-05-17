@@ -9,7 +9,7 @@ const Hero: React.FC = () => {
     gsap.registerPlugin(TextPlugin);
     gsap.to(".contentBox__title", {
       duration: 2,
-      text: "Hi My Name Is Ali, And I'm A Software Engineer",
+      text: "Hi, My Name Is Ali, And I'm A Software Engineer.",
     });
     gsap.to(".contentBox__subTtitle", {
       duration: 2,
@@ -49,7 +49,9 @@ const Hero: React.FC = () => {
         <div
           className={`${style.mapContainer} w-100 my-md-auto position-relative`}
         >
-          <div className={`${style.profilePic} position-absolute rounded-circle`}></div>
+          <div
+            className={`${style.profilePic} position-absolute rounded-circle`}
+          ></div>
           <Map />
         </div>
       </div>

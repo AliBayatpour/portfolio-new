@@ -67,8 +67,8 @@ const ExperienceSecond: React.FC = () => {
       >
         <Graduation />
         <p className={`${style.contentBox__description} mb-0 ms-3`}>
-          Finally, I wrote my thesis with the topic of "Usefulness of the Scrum,
-          A Study Among Startups."
+          Finally, I wrote my thesis on "Usefulness of the Scrum, A Study Among
+          Startups."
         </p>
       </div>
     </div>

@@ -27,8 +27,8 @@ const ExperienceFirst: React.FC = () => {
       <p className={`${style.contentBox__description}`}>
         I enjoyed the theory part besides the practical part. I became the
         professor's assistant and started teaching students Data Structures
-        which was the most amazing thing that happened to me during my bachelor
-        study.
+        which was the most remarkable thing that happened to me during my
+        bachelor's study. Some of my favorite topics were:
         <br />
         Some of my favorite topics were:
       </p>

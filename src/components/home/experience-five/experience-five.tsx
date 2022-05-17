@@ -56,8 +56,8 @@ const ExperienceFive: React.FC = () => {
           </p>
           <ul className={`${style.contentBox__listBox}`}>
             <li>
-              Building the Fron-end web apps with Angular(also Angular Universal
-              for SSR)
+              Building the Front-end web apps with Angular(also Angular
+              Universal for SSR)
             </li>
             <li>
               I built the backend part of the projects, including
@@ -109,13 +109,16 @@ const ExperienceFive: React.FC = () => {
               Working with Angular on the Front-end and Golang on the back-end.
             </li>
             <li>
+              Writing, unit and integration tests with Jasmine and Cypress
+            </li>
+            <li>
               Dockerizing the projects and building CI/CDs for every project
             </li>
             <li>Being a leader and a role model for my team</li>
             <li>
               Helping team members both in technical and non-technical matters
             </li>
-            <li>Hiring Developers and doing interviews with candidates</li>
+            <li>Conducting technical interviews with candidates</li>
           </ul>
         </div>
         <div className="col-12 col-lg-5 order-1 order-lg-2">
