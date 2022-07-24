@@ -1,0 +1,64 @@
+.container {
+  background-color: var(--color-balck);
+  min-height: 200vh;
+  padding-top: 100px;
+}
+.profilePicContainer {
+  background-image: url("../../assets/home/profile-pic.jpg");
+  background-position: center;
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  border: var(--color-bloodyRed-500) 1px solid;
+}
+.portfolio {
+  h2 {
+    color: var(--color-bloodyRed-500) !important;
+  }
+}
+.experiences {
+  .mainTitle {
+    color: var(--color-bloodyRed-500) !important;
+  }
+  .experience {
+    .companyName {
+      font-size: 20px;
+      color: var(--color-oilBlue-500);
+    }
+    .companyTimeLine {
+      color: var(--color-oilBlue-500);
+    }
+    &__contentWrapper {
+      border-left: var(--color-white) 1px solid;
+    }
+
+    &__content {
+      .position {
+        font-size: 17px;
+      }
+      .dot {
+        width: 10px;
+        height: 10px;
+        left: 0;
+        top: 4px;
+        transform: translateX(-50%);
+        background-color: var(--color-oilBlue-500);
+      }
+    }
+  }
+}
+.sideInfo {
+  &__title {
+    color: var(--color-bloodyRed-500) !important;
+    font-size: 20px;
+  }
+  p {
+    font-size: 13px;
+  }
+  &__chips {
+    .chip {
+      background: var(--color-bloodyRed-500) !important;
+      border-radius: 5px;
+    }
+  }
+}
